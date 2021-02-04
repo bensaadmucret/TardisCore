@@ -1,0 +1,13 @@
+{
+    "name": "mzb/tardisframework",
+    "description": "A simple PHP framework for building web application",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohammed Bensaad",
+            "email": "bensaadmucret@gmail.com"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "require": {}
+}
