@@ -1,13 +1,39 @@
 {
     "name": "mzb/tardisframework",
     "description": "A simple PHP framework for building web application",
+    "keywords": ["simple-framework","php", "tardisCore", "tardis framework"],
+    "type": "library",
     "license": "MIT",
+    "support": {
+        "issues": "https://github.com/bensaadmucret/TardisCore/issues",
+        "source": "https://github.com/bensaadmucret/TardisCore",
+        "wiki":   "https://github.com/bensaadmucret/TardisCore/wiki"
+    },
     "authors": [
         {
             "name": "Mohammed Bensaad",
-            "email": "bensaadmucret@gmail.com"
+            "email": "bensaadmucret@gmail.com",
+            "role": "Developer"
         }
     ],
     "minimum-stability": "alpha",
-    "require": {}
+    "require": {
+        "php": "7.4.2| ^8.0",
+        "ext-mbstring": "*",
+        "ext-iconv": "*",
+        "ext-pdo":"*",
+        "ext-json":"*",
+        "ext-curl":"*",
+        "ext-simplexml":"*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tardis\\": "src/Tardis"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tardis\\Tests\\": "tests/"
+        }
+    }
 }
