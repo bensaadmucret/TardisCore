@@ -1,0 +1,22 @@
+-------------------- Auto-Git Log --------------------
+		Thu Mar 04 2021 20:21:47 GMT+0100 (Central European Standard Time)
+------------------------------------------------------
+
+Modified files:
+* .gitignore
+* composer.json
+* composer.lock
+* index.php
+
+
+Created files:
+* .autogit/autogit.json
+* .github/workflows/php.yml
+* src/Tardis/Router/Router.php
+* src/Tardis/Router/RouterInterface.php
+
+
+Deleted files:
+
+
+Renamed files:
