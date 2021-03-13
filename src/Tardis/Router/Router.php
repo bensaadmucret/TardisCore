@@ -21,12 +21,6 @@ class Router implements RouterInterface
     protected array $params = [];
 
     /**
-     * Adds a suffix onto the controller name
-     * @var string
-     */
-    protected string $controllerSuffix = 'controller';
-
-    /**
      * @inheritDoc
      *
      * @return void
