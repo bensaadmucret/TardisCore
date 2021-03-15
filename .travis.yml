@@ -1,0 +1,12 @@
+language: php
+sudo: false
+
+warnings_are_errors: false
+
+php:
+    - 7.3
+install:
+    - composer install --prefer-dist --no-interaction
+    
+script:
+    - ./vendor/bin/phpunit --coverage-text --colors
